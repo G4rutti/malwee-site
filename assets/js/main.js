@@ -12,6 +12,9 @@ function salaDeCursos(){
 
 
 function pagUm(){
+    document.querySelector("#pagUm").classList.add("active")
+    document.querySelector("#pagDois").classList.remove("active")
+    document.querySelector("#pagTres").classList.remove("active")
     const empregos = document.querySelector("#empregos")
     empregos.innerHTML = `
              <div class="card mb-3">
@@ -36,6 +39,9 @@ function pagUm(){
 }
 
 function pagDois(){
+    document.querySelector("#pagUm").classList.remove("active")
+    document.querySelector("#pagDois").classList.add("active")
+    document.querySelector("#pagTres").classList.remove("active")
     const empregos = document.querySelector("#empregos")
     empregos.innerHTML = `
     <div class="card mb-3">
@@ -61,6 +67,10 @@ function pagDois(){
 
 function pagTres(){
     const empregos = document.querySelector("#empregos")
+    document.querySelector("#pagUm").classList.remove("active")
+    document.querySelector("#pagDois").classList.remove("active")
+    document.querySelector("#pagTres").classList.add("active")
+
     empregos.innerHTML = `
     <div class="card mb-3">
        <img src="assets/img/sewingStudio.png" class="card-img-top imgLogo" alt="...">
