@@ -4,7 +4,6 @@
     font-family: 'Kanit', sans-serif;
     margin: 0; 
     list-style: none;
-    text-decoration: none;
 }
 
 .segundoHeader{
@@ -23,14 +22,16 @@
     margin: 1.2vw;
 }
 .segundoHeader a{
+    text-decoration: none;
     font-size: .8rem;
     color: white;
 }
 
 .imgCarrossel{
+    filter: brightness(0.7) opacity(1);
     align-self: center;
-    width: 70vw;
-    height: auto;
+    width: 80vw;
+    height: 80vh;
 }
 .carrossels{
     margin: 0;
@@ -39,5 +40,19 @@
     width: 100vw;
 }
 .crls{
-    width: 70vw;
+    width: 80vw;
+}
+
+.cursos{
+    margin: auto;
+    width: 80vw;
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+}
+.cartao{
+    margin: 2vw;
 }
