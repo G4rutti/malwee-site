@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;700;900&display=swap');
+
+*{
+    font-family: 'Kanit', sans-serif;
+}
+
+.initialPage{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.esquerda{
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+}
+.textContent{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+.textContent h1{
+    font-size: 2rem;
+    color:#725AC1
+}
+
+.textContent p{
+    font-weight: 400;
+    margin: 0;
+}
+
+.direita{
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    width: 50vw;
+}
+
+.direita p{
+    text-align: center;
+    width: 30vw;
+}
+
+.barra{
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 30vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow:  17px 17px 38px #a6a6a6,
+             -17px -17px 38px #ffffff;
+}
+
+.barra button{
+    margin-bottom: 10px;
+}
+
+#imagemLogo{
+    margin-bottom   : 10vh;
+}
