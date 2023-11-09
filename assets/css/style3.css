@@ -8,6 +8,7 @@
 }
 
 .segundoHeader{
+    margin: 0;
     width: 100%;
     background-color:#815DE2;
     display: flex;
@@ -24,4 +25,19 @@
 .segundoHeader a{
     font-size: .8rem;
     color: white;
+}
+
+.imgCarrossel{
+    align-self: center;
+    width: 70vw;
+    height: auto;
+}
+.carrossels{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.crls{
+    width: 70vw;
 }
