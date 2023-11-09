@@ -28,7 +28,7 @@
 }
 
 .imgCarrossel{
-    filter: brightness(0.7) opacity(1);
+    filter: brightness(0.2) opacity(1);
     align-self: center;
     width: 80vw;
     height: 80vh;
@@ -55,4 +55,25 @@
 }
 .cartao{
     margin: 2vw;
+}
+
+.imgLogo{
+    margin: 16px;
+    height: auto;
+    width: 20vw;
+}
+
+.btnAplica{
+    margin-bottom: 2vh;
+}
+
+.navegacao{
+    width: 100vw;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.pagination a{
+    width: auto;
+    height: auto;
 }

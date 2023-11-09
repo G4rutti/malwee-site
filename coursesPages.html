@@ -37,28 +37,40 @@
         </ul>
     </section>
     <section class="carrossels">
-        <div id="carouselExampleIndicators" class="carousel slide crls">
+        <div id="carouselExampleCaptions" class="carousel slide crls">
             <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner crls">
+            <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="assets/img/capa-evolucao-da-maquina-de-cost.png" class="d-block imgCarrossel" alt="...">
-              </div>
-              <div class="carousel-item">
                 <img src="assets/img/historia-da-costura-2-1536x1024.png" class="d-block imgCarrossel" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Cursos imperdíveis!</h5>
+                  <p>Se você quer ser um profissional de sucesso na área de costura, não pode deixar de fazer os cursos dessa plataforma.</p>
+                </div>
               </div>
               <div class="carousel-item">
                 <img src="assets/img/historia-da-costura-idade-media.png" class="d-block imgCarrossel" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Muitas oportunidades de emprego!</h5>
+                  <p>Se você se qualificar para a área téxtil, terá muitas oportunidades de emprego.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/capa-evolucao-da-maquina-de-cost.png" class="d-block imgCarrossel" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Melhor plataforma do mundo na área!</h5>
+                  <p>A plataforma de cursos do grupo Malwee oferece oportunidades de networking e desenvolvimento profissional, que ajudam os alunos a se conectarem com outros profissionais e a se desenvolverem na carreira.</p>
+                </div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
@@ -101,5 +113,36 @@
             </div>
         </div>
     </section>
+    <section class="cursos">
+        <h2>Oportunidades de emprego</h2>
+        <div class="empregosOportunidades">
+            <div class="card mb-3">
+                <img src="assets/img/empresa2.png" class="card-img-top imgLogo" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Costureira - PEMAQ Costura</h5>
+                  <p class="card-text">O costureiro é um profissional responsável pela confecção, reparo, reforma e adaptação de peças de vestuário. Trabalha com tecidos, linhas, zíperes, botões e outros acessórios para produzir roupas, acessórios, artigos para o lar e outros itens.</p>
+                  <a href="#" class="btn btn-primary btnAplica">Aplicar-se</a>
+                  <p class="card-text"><small class="text-body-secondary">Enviado á 43 minutos atrás</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/ophicina.png" class="card-img-bottom imgLogo" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Pespontadeira - Ophicina Resende</h5>
+                  <p class="card-text">A pespontadeira é um profissional responsável pela costura de peças de vestuário, principalmente as que exigem acabamentos decorativos, como pespontos, nervuras e outros detalhes. Trabalha com tecidos, linhas e outros acessórios para produzir peças de alta qualidade e acabamento impecável.</p>
+                  <a href="#" class="btn btn-primary btnAplica">Aplicar-se</a>
+                  <p class="card-text"><small class="text-body-secondary">Enviado á 2 horas atrás</small></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <nav aria-label="..." class="navegacao">
+        <ul class="pagination pagination">
+          <li id="pagUm" class="page-item active paginacao" aria-current="page"><a class="page-link">1</a></li>
+          <li id="pagDois" class="page-item paginacao"><a class="page-link" href="#">2</a></li>
+          <li id="pagTres" class="page-item paginacao"><a class="page-link" href="#">3</a></li>
+        </ul>
+      </nav>
+      
 </body>
 </html>
