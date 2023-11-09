@@ -115,7 +115,7 @@
     </section>
     <section class="cursos">
         <h2>Oportunidades de emprego</h2>
-        <div class="empregosOportunidades">
+        <div id="empregos" class="empregosOportunidades">
             <div class="card mb-3">
                 <img src="assets/img/empresa2.png" class="card-img-top imgLogo" alt="...">
                 <div class="card-body">
@@ -138,11 +138,11 @@
     </section>
     <nav aria-label="..." class="navegacao">
         <ul class="pagination pagination">
-          <li id="pagUm" class="page-item active paginacao" aria-current="page"><a class="page-link">1</a></li>
-          <li id="pagDois" class="page-item paginacao"><a class="page-link" href="#">2</a></li>
-          <li id="pagTres" class="page-item paginacao"><a class="page-link" href="#">3</a></li>
+          <li onclick="pagUm()" id="pagUm" class="page-item active paginacao" aria-current="page"><a class="page-link">1</a></li>
+          <li onclick="pagDois()" id="pagDois" class="page-item paginacao"><a class="page-link" onclick="pagDois()" >2</a></li>
+          <li onclick="pagTres()" id="pagTres" class="page-item paginacao"><a class="page-link" href="#">3</a></li>
         </ul>
       </nav>
-      
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
